@@ -5,7 +5,6 @@ ruby "2.2.0"
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.2'
 
-# Use sqlite3 as the database for Active Record
 gem 'carrierwave'
 
 # Use SCSS for stylesheets
@@ -28,6 +27,8 @@ gem 'turbolinks'
 
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 1.2'
+
+gem 'devise'
 
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
